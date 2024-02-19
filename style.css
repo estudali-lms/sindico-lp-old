@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container {
+    height: 850px;
+    background-image: url(https://d9hhrg4mnvzow.cloudfront.net/contato.townsq.com.br/mentoria-bruno-luize-aplicacao/a9d1ba2a-background-roxo_100000000000000000001o.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+
+
+.firstSection {
+    width: 1024px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(16, 4, 32, 0);
+}
+
+.first-paragrapher {
+    line-height: 20px;
+    font-weight: 700;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    color: rgb(255,255,255);
+}
+
+.first-span {
+    line-height: 43px;
+    font-weight: 500;
+    font-family: "Poppins";
+    font-size: 36px;
+    color: rgb(247,158,17);
+}
+
+.divSecondSpan {
+    margin-top: 48px;
+}
+.second-span {
+    line-height: 22px;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    color: rgb(255,255,255);
+}
+
+.divThrithSpan {
+    margin-top: 24px;
+}
+
+.third-span {
+    line-height: 22px;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    color: rgb(255,255,255);
+}
+
+.blockOne {
+    width: 50%;
+}
+
+iframe {
+    margin-left: 36px;
+    width: 600px;
+    height: 400px;
+}
+
+.callToActionFirst {
+    display: block;
+    border-style: none;
+    border-radius: 18px;
+    left: 534px;
+    top: 445px;
+    height: 50px;
+    width: 490px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 800;
+    text-align: center;
+    background-color: rgb(106, 161, 29);
+}
+
+.blockTwo {
+    width: 50%;
+}
+
+img {
+    background-color: blue;
+}
+
+.videoPreview {
+    background-color: red;
+}
