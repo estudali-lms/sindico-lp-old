@@ -12,6 +12,15 @@ body {
     background-size: cover;
 }
 
+.header {
+    margin-left: 1450px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+img {
+    background-color: blck;
+}
 
 .firstSection {
     width: 1024px;
@@ -76,24 +85,75 @@ iframe {
     display: block;
     border-style: none;
     border-radius: 18px;
-    left: 534px;
-    top: 445px;
     height: 50px;
     width: 490px;
     font-size: 20px;
     line-height: 24px;
     font-weight: 800;
     text-align: center;
-    background-color: rgb(106, 161, 29);
+    background: linear-gradient(#9ac940, #558a12);
+    box-shadow: none;
+    text-shadow: none;
+    margin-left: 84px;
+    margin-top: 16px;
+    text-decoration: none;
+    color: #fff
+
 }
+
+.callToActionFirst > p {
+    
+}
+
+
+
 
 .blockTwo {
     width: 50%;
+    margin: auto;
+
 }
 
-img {
-    background-color: blue;
+.blockThree {
+    display: block;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #F79E11;
+    border-radius: 20px;
+    width: 833px;
+    height: 154px;
+    position: absolute;
+    left: 580px;
+    top: 610.94px
 }
+
+.blockThree > div {
+    position: absolute;
+    background: none;
+    border-radius: 19px;
+    height: 154px;
+    width: 833px;
+}
+
+.blockThree > div > div {
+    position: absolute;
+    left: 60px;
+    top: 25px
+}
+
+.blockThree > div > div > p {
+ line-height: 24px;
+ text-align: justify-all;
+}
+
+.blockThree > div > div > p > span {
+    font-weight: 300;
+    font-style: none;
+    font-size: 18px;
+    color: rgb(255,255,255);
+}
+
+
 
 .videoPreview {
     background-color: red;
