@@ -6,7 +6,7 @@ body {
 
 .container {
     height: 850px;
-    background-image: url(https://d9hhrg4mnvzow.cloudfront.net/contato.townsq.com.br/mentoria-bruno-luize-aplicacao/a9d1ba2a-background-roxo_100000000000000000001o.jpg);
+    background-color: rgb(0, 182, 61);
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
@@ -18,9 +18,10 @@ body {
     padding-bottom: 20px;
 }
 
-img {
-    background-color: blck;
+.img-logo {
+    width: 80px;
 }
+
 
 .firstSection {
     width: 1024px;
