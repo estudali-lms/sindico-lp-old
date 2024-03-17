@@ -102,10 +102,9 @@ iframe {
 
 }
 
-.callToActionFirst > p {
-    
+.text-inside-cta {
+    padding-top: 10px;
 }
-
 
 
 

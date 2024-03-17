@@ -24,13 +24,17 @@
 }
 
 .fourth-section {
-
-}
-
-.fourth-section {
     display: flex;
-    margin-left: auto;
+    margin-left: 28%;
     margin-right: auto;
     width: 1024px;
     height: 500px;
+}
+.img-fourth-section{
+    margin: auto;
+}
+
+.certificado-image {
+    margin: auto;
+    width: 80%;
 }
