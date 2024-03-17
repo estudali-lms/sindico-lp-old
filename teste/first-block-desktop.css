@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container {
+    height: 850px;
+    background-color: rgb(0, 182, 61);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+
+.header {
+    margin-left: 1450px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.img-logo {
+    width: 80px;
+}
+
+
+.firstSection {
+    width: 1024px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(16, 4, 32, 0);
+}
+
+.first-paragrapher {
+    line-height: 20px;
+    font-weight: 700;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    color: rgb(255,255,255);
+}
+
+.first-span {
+    line-height: 43px;
+    font-weight: 500;
+    font-family: "Poppins";
+    font-size: 36px;
+    color: rgb(247,158,17);
+}
+
+.divSecondSpan {
+    margin-top: 48px;
+}
+.second-span {
+    line-height: 22px;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    color: rgb(255,255,255);
+}
+
+.divThrithSpan {
+    margin-top: 24px;
+}
+
+.third-span {
+    line-height: 22px;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    color: rgb(255,255,255);
+}
+
+.blockOne {
+    width: 50%;
+}
+
+iframe {
+    margin-left: 36px;
+    width: 600px;
+    height: 400px;
+}
+
+.callToActionFirst {
+    display: block;
+    border-style: none;
+    border-radius: 18px;
+    height: 50px;
+    width: 490px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 800;
+    text-align: center;
+    background: linear-gradient(#9ac940, #558a12);
+    box-shadow: none;
+    text-shadow: none;
+    margin-left: 84px;
+    margin-top: 16px;
+    text-decoration: none;
+    color: #fff
+
+}
+
+.text-inside-cta {
+    padding-top: 10px;
+}
+
+
+
+.blockTwo {
+    width: 50%;
+    margin: auto;
+
+}
+
+.blockThree {
+    display: block;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #F79E11;
+    border-radius: 20px;
+    width: 833px;
+    height: 154px;
+    position: absolute;
+    left: 580px;
+    top: 610.94px
+}
+
+.blockThree > div {
+    position: absolute;
+    background: none;
+    border-radius: 19px;
+    height: 154px;
+    width: 833px;
+}
+
+.blockThree > div > div {
+    position: absolute;
+    left: 60px;
+    top: 25px
+}
+
+.blockThree > div > div > p {
+ line-height: 24px;
+ text-align: justify-all;
+}
+
+.blockThree > div > div > p > span {
+    font-weight: 300;
+    font-style: none;
+    font-size: 18px;
+    color: rgb(255,255,255);
+}
+
+
+
+.videoPreview {
+    background-color: red;
+}
