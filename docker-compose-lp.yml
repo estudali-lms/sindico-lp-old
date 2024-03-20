@@ -2,6 +2,8 @@ version: "3"
 
 services:
   web:
-    build: .
+    build:
+      context: .
+      dockerfile: Dockerfile-lp
     ports:
       - "3001:3001"
