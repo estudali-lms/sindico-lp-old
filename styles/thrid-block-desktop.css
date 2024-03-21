@@ -56,7 +56,7 @@
   flex-direction: column;
   align-items: center;
   box-shadow: 10px 15px rgb(18, 172, 4);
-  padding: 25px;
+  padding: 45px;
 }
 
 .text-inside-padlock {
@@ -121,7 +121,7 @@
 
 .callToActionBlock > p {
   padding-top: 10px;
-  margin-top: 60px;
+  margin-top: 20px;
 }
 
 .logo_section-payment {
