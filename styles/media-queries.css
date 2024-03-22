@@ -207,6 +207,9 @@
   .callToActionBlock {
     font-size: 12px;
   }
+  .callToActionBlock > p {
+    font-size: 12px;
+  }
   .floating-spans {
     width: 305px;
     margin: 0;
