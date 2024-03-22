@@ -89,6 +89,18 @@
   color: rgb(247, 158, 17);
 }
 
+.text-inside-padlock-10 {
+  font-size: 16px;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  background: -webkit-linear-gradient(#f79e11, #f43920);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: rgb(247, 158, 17);
+}
+
 .text-inside-padlock-3 {
   background: -webkit-linear-gradient(#f79e11, #f43920);
   -webkit-background-clip: text;
@@ -126,6 +138,12 @@
 
 .logo_section-payment {
   width: 30%;
+}
+
+.logo_section-whatsapp {
+  display: block;
+  margin: auto;
+  width: 20%;
 }
 
 .img-padlock {
