@@ -35,6 +35,11 @@
   line-height: 24px;
 }
 
+.first-block-container,
+.second-block-container {
+  flex: 1;
+}
+
 .third-block-container {
   width: 506px;
   margin: auto;

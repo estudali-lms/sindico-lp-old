@@ -198,7 +198,7 @@
 }
 @media (max-width: 375px) {
   .first-block-container {
-    width: 230px;
+    width: 100%;
     padding-left: 10px;
   }
   .text-inside-padlock-2 span {

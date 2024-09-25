@@ -114,25 +114,22 @@
   font-weight: 900;
 }
 .callToActionBlock {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-style: none;
   border-radius: 18px;
-  height: 50px;
+  min-height: 50px;
   font-size: 20px;
   font-weight: 800;
   text-align: center;
   background: linear-gradient(#9ac940, #558a12);
   box-shadow: none;
   text-shadow: none;
-  margin: auto;
+  margin: 20px auto;
   text-decoration: none;
   color: #fff;
   width: 90%;
-}
-
-.callToActionBlock > p {
-  padding-top: 10px;
-  margin-top: 20px;
 }
 
 .logo_section-payment {
