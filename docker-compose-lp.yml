@@ -1,9 +1,19 @@
-version: "3"
+version: "3.8"
 
 services:
-  web:
+  lp:
+    image: 090678/lp
+    container_name: lp
     build:
       context: .
       dockerfile: Dockerfile-lp
+    restart: always
+    environment:
+      - CADDY_PORT=3005
     ports:
-      - "3001:3001"
+      - "3005:3005"
+    networks:
+      - frontend_network
+
+networks:
+  frontend_network:
