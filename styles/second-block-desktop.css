@@ -27,7 +27,6 @@
 }
 
 .second-block-container {
-  margin-left: 40px;
   width: 50%;
 }
 
@@ -72,6 +71,7 @@
 
 .second-container {
   display: flex;
+  gap: 40px;
 }
 
 .forth-block-container {
@@ -83,8 +83,6 @@
 }
 
 .mini-block {
-  /* width: 100px;
-    height: 100px; */
   margin: 10px;
   background: linear-gradient(#f0f0e6, #d7d7cf);
   border-style: none;
